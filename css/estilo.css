@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 1em;
+    background-color: #ECECEC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2em;
+    color: var(--cabecalho-color);
+    font-weight: bolder;    
+}
+
+h3{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    /* border: 1px solid blue;     */
+}
+
+a{    
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #F1B910;    
+    font-size: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho {
+    font-size: 1em;
+    text-align: center;
+    padding: 15px ;
+    background-color: #F1B910;    
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#cabecalho a:hover{
+    color: #F1B910;
+    background-color: white;    
+    text-decoration: none;
+}
+
+#logo, #menu {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#principal{
+    width: 920px;
+    /* border: 1px solid red; */
+    margin: 15px auto;    
+}
+
+#area-postagem{
+    float: left;
+    width: 660px;
+    /* border: 1px solid red; */
+    /* background-color: white; */
+}
+
+#area-lateral{
+    float: right;
+    width: 240px;
+    /* background-color: #ECECEC; */
+    /* border: 1px solid red; */
+}
+
+#postagens-recentes{
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#categorias{
+    /* border: 1px solid red; */
+    background-color: white;    
+    padding: 10px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+    background-color: orange;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.postagem-lateral{
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #CCC;    
+}
+
+.white {
+    color: white;
+}
+
+.data{
+    /* border: 1px solid red; */
+    display:block;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+:root{
+    --cabecalho-color: #F1B910; 
+}
+
+
+
